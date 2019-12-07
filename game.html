@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="game.css">
+    <title>Start the Guaca-game</title>
+</head>
+<body onload="startgame()">
+    <div class="game">  
+        <div id="gameover">  
+            <h1 ><b>Guac-A-Mole</b></h1>
+            <p><b>Time Left: <span id="time">02:00</span> min</b></p>
+
+            <p><b>Score ops: <span id="points">0</span>pts</b></p>
+            <script>
+                
+            </script>
+            <div id="box">
+                <div style="display: flex; flex-direction: row;">
+                        <div class="blackcircle"><img src="guac.png" id="1" style="visibility:hidden" ></div>
+                        <div class="blackcircle"><img src="guac.png" id="2" style="visibility:hidden"></div>
+                        <div class="blackcircle"><img src="guac.png" id="3" style="visibility:hidden"></div>
+                </div>
+                <div style="display: flex; flex-direction: row;justify-content: center;">
+                        <div class="blackcircle"><img src="guac.png" id="4" style="visibility:hidden"></div>
+                        <div class="blackcircle"><img src="guac.png" id="5" style="visibility:hidden"></div>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+    <script src="game.js"></script>
+    <script src="timer.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</body>
+</html>
